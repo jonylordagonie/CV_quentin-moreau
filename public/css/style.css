@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+/* variables */
+:root{
+  --main-color: #2d84f6;
+}
 
 /*  général */
 body{
@@ -21,10 +25,10 @@ section .heading{
 }
 section .heading h2{
   text-transform: uppercase;
-  color: #d82c2e;
+  color: var(--main-color);
 }
 .divider{
-  background-color: #d82c2e;
+  background-color: var(--main-color);
   width: 100px;
   height: 2px;
   margin: 0 auto 20px;
@@ -35,7 +39,7 @@ ul{
 
 /* navbar */
 .navbar{
-  background: #d82c2e;
+  background: var(--main-color);
   letter-spacing: 2px;
   border-bottom: 1px solid #fff;
 }
@@ -45,12 +49,12 @@ ul{
 }
 .nav-link.active, .nav-link:hover{
   background-color: #fff;
-  color: #d82c2e !important;
+  color: var(--main-color) !important;
 }
 
 /* about */
 #about{
-  background-color: #d82c2e;
+  background-color: var(--main-color);
 }
 .profil{
   text-align: center;
@@ -70,7 +74,7 @@ ul{
   margin: 30px 20px 0;
 }
 #skills .progress-bar{
-  background-color: #d82c2e;
+  background-color: var(--main-color);
 }
 #skills .progress-bar h5{
   text-shadow: 1px 1px 1px #000;
@@ -79,7 +83,7 @@ ul{
 
 /* experiences */
 #experiences{
-  background-color: #d82c2e;
+  background-color: var(--main-color);
 }
 .timeline{
   padding: 30px 10px;
@@ -107,7 +111,7 @@ ul{
   clear: both;
 }
 .timeline li .timeline-badge{
-  color: #d82c2e;
+  color: var(--main-color);
   width: 50px;
   line-height: 50px;
   font-size: 20px;
@@ -164,7 +168,7 @@ ul{
   font-size: 20px;
 }
 .timeline-heading h4{
-  color: #d82c2e;
+  color: var(--main-color);
 }
 
 /* education */
@@ -188,7 +192,7 @@ ul{
   color:goldenrod ;
 }
 .education-block h3{
-  color: #d82c2e;
+  color: var(--main-color);
   margin: 15px;
 }
 .education-block h4{
@@ -198,7 +202,7 @@ ul{
 
 /* portfolio */
 #portfolio{
-  background: #d82c2e;
+  background: var(--main-color);
 }
 #portfolio img{
   width: 100%;
@@ -217,7 +221,7 @@ ul{
   padding: 30px 30px 90px;
 }
 #carousel .carousel-item h3{
-  color: #d82c2e;
+  color: var(--main-color);
   font-style: italic;
 }
 
